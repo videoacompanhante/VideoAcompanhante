@@ -1,135 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Acompanhantes | Catálogo</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vídeo Acompanhante</title>
+  
+  <!-- Google Font provocante -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      background-color: #0a0a0a;
+      color: #f2f2f2;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+    }
+
+    img.logo {
+      width: 300px;
+      max-width: 90%;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #e60000;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+      color: #ccc;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #e60000;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    a.button:hover {
+      background-color: #ff1a1a;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Catálogo VIP</h1>
-    <nav>
-      <input type="text" placeholder="Buscar por cidade, nome...">
-    </nav>
-  </header>
 
-  <main class="galeria">
-    <div class="card">
-      <a href="perfil.html">
-        <img src="https://via.placeholder.com/300x400" alt="Perfil 1">
-        <h2>Ana - 25 anos</h2>
-        <p>São Paulo, SP</p>
-      </a>
-    </div>
+  <img src="img/logo.jpg" alt="Logo Vídeo Acompanhante" class="logo" />
 
-    <div class="card">
-      <a href="perfil.html">
-        <img src="https://via.placeholder.com/300x400" alt="Perfil 2">
-        <h2>Bruna - 28 anos</h2>
-        <p>Rio de Janeiro, RJ</p>
-      </a>
-    </div>
+  <h1>Bem-vindo ao Vídeo Acompanhante</h1>
 
-    <!-- Adicione mais cards conforme quiser -->
-  </main>
+  <p>
+    Conteúdos adultos para quem busca mais do que prazer: conexão, presença e fantasia sob medida.
+  </p>
 
-  <footer>
-    <p>&copy; 2025 Catálogo VIP</p>
-  </footer>
+  <a href="#" class="button">Entrar agora</a>
+
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Perfil de Ana</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <a href="index.html">← Voltar</a>
-    <h1>Ana - 25 anos</h1>
-  </header>
 
-  <main class="perfil">
-    <img src="https://via.placeholder.com/400x500" alt="Foto da Ana">
-    <section>
-      <h2>Localização</h2>
-      <p>São Paulo, SP</p>
-
-      <h2>Sobre</h2>
-      <p>Atenciosa, carinhosa, discreta e educada. Atendimento com hora marcada.</p>
-
-      <h2>Contato</h2>
-      <p><a href="https://wa.me/5599999999999" target="_blank">WhatsApp</a></p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Catálogo VIP</p>
-  </footer>
-</body>
-</html>
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fafafa;
-}
-
-header {
-  background: #111;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-nav input {
-  padding: 0.5rem;
-  margin-top: 1rem;
-  width: 60%;
-  max-width: 400px;
-  border-radius: 5px;
-  border: none;
-}
-
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-.card {
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  width: 300px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-}
-
-.perfil {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-}
-
-.perfil img {
-  width: 300px;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #eee;
-}

@@ -1,0 +1,71 @@
+body {
+  background-color: #000;
+  color: #FFD700;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #8B0000;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #FFD700;
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+form input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #FFD700;
+  border: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.perfil-img {
+  width: 200px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.descricao {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.whatsapp {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.cadastro-opcoes a {
+  display: inline-block;
+  margin: 20px;
+  padding: 15px 25px;
+  background-color: #8B0000;
+  color: #FFD700;
+  text-decoration: none;
+  border-radius: 10px;
+}
